@@ -1,0 +1,18 @@
+Fitter Status : Successful - Sun Oct 20 16:07:04 2024
+Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+Revision Name : vga
+Top-level Entity Name : vga
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 70 / 49,760 ( < 1 % )
+    Total combinational functions : 61 / 49,760 ( < 1 % )
+    Dedicated logic registers : 43 / 49,760 ( < 1 % )
+Total registers : 43
+Total pins : 17 / 360 ( 5 % )
+Total virtual pins : 0
+Total memory bits : 0 / 1,677,312 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )
