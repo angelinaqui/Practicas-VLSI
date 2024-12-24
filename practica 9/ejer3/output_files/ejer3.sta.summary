@@ -1,0 +1,185 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'display_ena'
+Slack : -5.615
+TNS   : -16.331
+
+Type  : Slow 1200mV 85C Model Setup 'clkc'
+Slack : -4.471
+TNS   : -53.340
+
+Type  : Slow 1200mV 85C Model Setup 'reloj_pixel'
+Slack : -1.921
+TNS   : -70.682
+
+Type  : Slow 1200mV 85C Model Setup 'clk50Mhz'
+Slack : -1.154
+TNS   : -1.154
+
+Type  : Slow 1200mV 85C Model Setup 'clkl'
+Slack : -0.318
+TNS   : -0.847
+
+Type  : Slow 1200mV 85C Model Hold 'clkl'
+Slack : 0.339
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'reloj_pixel'
+Slack : 0.436
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clkc'
+Slack : 0.638
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk50Mhz'
+Slack : 0.955
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'display_ena'
+Slack : 1.871
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clkc'
+Slack : -3.000
+TNS   : -39.478
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk50Mhz'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'reloj_pixel'
+Slack : -1.403
+TNS   : -58.926
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clkl'
+Slack : -1.403
+TNS   : -5.612
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'display_ena'
+Slack : 0.418
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'display_ena'
+Slack : -5.083
+TNS   : -14.988
+
+Type  : Slow 1200mV 0C Model Setup 'clkc'
+Slack : -4.088
+TNS   : -46.583
+
+Type  : Slow 1200mV 0C Model Setup 'reloj_pixel'
+Slack : -1.691
+TNS   : -61.534
+
+Type  : Slow 1200mV 0C Model Setup 'clk50Mhz'
+Slack : -1.005
+TNS   : -1.005
+
+Type  : Slow 1200mV 0C Model Setup 'clkl'
+Slack : -0.197
+TNS   : -0.503
+
+Type  : Slow 1200mV 0C Model Hold 'clkl'
+Slack : 0.305
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'reloj_pixel'
+Slack : 0.399
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clkc'
+Slack : 0.589
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk50Mhz'
+Slack : 0.862
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'display_ena'
+Slack : 1.843
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clkc'
+Slack : -3.000
+TNS   : -39.478
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk50Mhz'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'reloj_pixel'
+Slack : -1.403
+TNS   : -58.926
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clkl'
+Slack : -1.403
+TNS   : -5.612
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'display_ena'
+Slack : 0.459
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'display_ena'
+Slack : -1.878
+TNS   : -5.518
+
+Type  : Fast 1200mV 0C Model Setup 'clkc'
+Slack : -1.371
+TNS   : -8.265
+
+Type  : Fast 1200mV 0C Model Setup 'reloj_pixel'
+Slack : -0.249
+TNS   : -6.147
+
+Type  : Fast 1200mV 0C Model Setup 'clk50Mhz'
+Slack : -0.180
+TNS   : -0.180
+
+Type  : Fast 1200mV 0C Model Setup 'clkl'
+Slack : 0.426
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clkl'
+Slack : 0.146
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'reloj_pixel'
+Slack : 0.175
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clkc'
+Slack : 0.248
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk50Mhz'
+Slack : 0.337
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'display_ena'
+Slack : 0.817
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clkc'
+Slack : -3.000
+TNS   : -29.818
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk50Mhz'
+Slack : -3.000
+TNS   : -4.008
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'reloj_pixel'
+Slack : -1.000
+TNS   : -42.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clkl'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'display_ena'
+Slack : 0.333
+TNS   : 0.000
+
+------------------------------------------------------------
