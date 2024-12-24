@@ -1,0 +1,54 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+ENTITY ejer4 IS
+port( 
+    clk: in std_logic;
+    led0, led1, led2, led3, led4, led5, led6, led7, led8: out std_logic
+);
+end ejer4;
+
+architecture b of ejer4 is
+signal clkl0, clkl1, clkl2, clkl3, clkl4, clkl5, clkl6, clkl7, clkl8: std_logic;
+signal duty_cycles: integer range 0 to 1000 := 0; -- Para controlar el ciclo de trabajo
+signal counter: integer range 0 to 25000000 := 0; -- Para controlar la rotación de LEDs
+begin
+    -- Divisores de frecuencia
+    u1: entity work.divf(a) generic map(25000) port map(clk, clkl0);
+    u2: entity work.divf(a) generic map(25000) port map(clk, clkl1);
+    u3: entity work.divf(a) generic map(25000) port map(clk, clkl2);
+    u4: entity work.divf(a) generic map(25000) port map(clk, clkl3);
+    u5: entity work.divf(a) generic map(25000) port map(clk, clkl4);
+    u6: entity work.divf(a) generic map(25000) port map(clk, clkl5);
+    u7: entity work.divf(a) generic map(25000) port map(clk, clkl6);
+    u8: entity work.divf(a) generic map(25000) port map(clk, clkl7);
+    u9: entity work.divf(a) generic map(25000) port map(clk, clkl8);
+
+    -- Señal PWM con diferentes ciclos de trabajo para cada LED
+    u10: entity work.senal(c) port map(clkl0, duty_cycles, led0);
+    u11: entity work.senal(c) port map(clkl1, duty_cycles, led1);
+    u12: entity work.senal(c) port map(clkl2, duty_cycles, led2);
+    u13: entity work.senal(c) port map(clkl3, duty_cycles, led3);
+    u14: entity work.senal(c) port map(clkl4, duty_cycles, led4);
+    u15: entity work.senal(c) port map(clkl5, duty_cycles, led5);
+    u16: entity work.senal(c) port map(clkl6, duty_cycles, led6);
+    u17: entity work.senal(c) port map(clkl7, duty_cycles, led7);
+    u18: entity work.senal(c) port map(clkl8, duty_cycles, led8);
+
+    -- Proceso para cambiar el ciclo de trabajo de los LEDs y crear la rotación
+    process(clk)
+    begin
+        if rising_edge(clk) then
+            if counter = 25000000 then -- Cada cierto tiempo (ajustar según el periodo deseado)
+                counter <= 0;
+                if duty_cycles = 900 then
+                    duty_cycles <= 100;  -- Reiniciar el ciclo de trabajo
+                else
+                    duty_cycles <= duty_cycles + 100; -- Incrementar el ciclo de trabajo para la rotación
+                end if;
+            else
+                counter <= counter + 1;
+            end if;
+        end if;
+    end process;
+end architecture;
