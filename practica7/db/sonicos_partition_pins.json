@@ -1,0 +1,85 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "sensor_disp",
+					"strict" : false
+				},
+				{
+					"name" : "displayunidades[0]",
+					"strict" : false
+				},
+				{
+					"name" : "displayunidades[1]",
+					"strict" : false
+				},
+				{
+					"name" : "displayunidades[2]",
+					"strict" : false
+				},
+				{
+					"name" : "displayunidades[3]",
+					"strict" : false
+				},
+				{
+					"name" : "displayunidades[4]",
+					"strict" : false
+				},
+				{
+					"name" : "displayunidades[5]",
+					"strict" : false
+				},
+				{
+					"name" : "displayunidades[6]",
+					"strict" : false
+				},
+				{
+					"name" : "displaydecenas[0]",
+					"strict" : false
+				},
+				{
+					"name" : "displaydecenas[1]",
+					"strict" : false
+				},
+				{
+					"name" : "displaydecenas[2]",
+					"strict" : false
+				},
+				{
+					"name" : "displaydecenas[3]",
+					"strict" : false
+				},
+				{
+					"name" : "displaydecenas[4]",
+					"strict" : false
+				},
+				{
+					"name" : "displaydecenas[5]",
+					"strict" : false
+				},
+				{
+					"name" : "displaydecenas[6]",
+					"strict" : false
+				},
+				{
+					"name" : "led_20cm",
+					"strict" : false
+				},
+				{
+					"name" : "led_5cm",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "sensor_eco",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
