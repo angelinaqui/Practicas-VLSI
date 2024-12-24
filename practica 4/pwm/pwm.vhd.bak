@@ -1,0 +1,30 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+ENTITY pwm IS
+port( clk: in std_logic;
+		led0,led1,led2,led3,led4,led5,led6,led7,led8: out std_logic);
+end pwm;
+
+architecture b of pwm is
+signal clkl0,clkl1,clkl2,clkl3,clkl4,clkl5,clkl6,clkl7,clkl8: std_logic;
+begin
+	u1: entity work.divf(a) generic map(25000) port map(clk,clkl0);
+	u2: entity work.divf(a) generic map(24000) port map(clk,clkl1);
+	u3: entity work.divf(a) generic map(23000) port map(clk,clkl2);
+	u4: entity work.divf(a) generic map(22000) port map(clk,clkl3);
+	u5: entity work.divf(a) generic map(21000) port map(clk,clkl4);
+	u6: entity work.divf(a) generic map(20000) port map(clk,clkl5);
+	u7: entity work.divf(a) generic map(19000) port map(clk,clkl6);
+	u8: entity work.divf(a) generic map(18000) port map(clk,clkl7);
+	u9: entity work.divf(a) generic map(17000) port map(clk,clkl8);
+	u10: entity work.senal(c) port map(clkl0,250,led0);
+	u11: entity work.senal(c) port map(clkl1,250,led1);
+	u12: entity work.senal(c) port map(clkl2,250,led2);
+	u13: entity work.senal(c) port map(clkl3,250,led3);
+	u14: entity work.senal(c) port map(clkl4,250,led4);
+	u15: entity work.senal(c) port map(clkl5,250,led5);
+	u16: entity work.senal(c) port map(clkl6,250,led6);
+	u17: entity work.senal(c) port map(clkl7,250,led7);
+	u18: entity work.senal(c) port map(clkl8,250,led8);
+end architecture;
