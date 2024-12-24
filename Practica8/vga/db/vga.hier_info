@@ -1,0 +1,24 @@
+|vga
+clk50Mhz => reloj_pixel.CLK
+red[0] <= red[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+red[1] <= red[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+red[2] <= red[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+red[3] <= red[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+green[0] <= green[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+green[1] <= green[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+green[2] <= green[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+green[3] <= green[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+blue[0] <= blue[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+blue[1] <= blue[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+blue[2] <= blue[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+blue[3] <= blue[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+h_sync <= h_sync~reg0.DB_MAX_OUTPUT_PORT_TYPE
+v_sync <= v_sync~reg0.DB_MAX_OUTPUT_PORT_TYPE
+swt[0] => Mux0.IN5
+swt[0] => Mux1.IN5
+swt[0] => Mux2.IN5
+swt[1] => Mux0.IN4
+swt[1] => Mux1.IN4
+swt[1] => Mux2.IN4
+
+
